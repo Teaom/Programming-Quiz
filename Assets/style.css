@@ -1,0 +1,155 @@
+body {
+    background-color: azure;
+}
+
+h1{
+    text-align: left;
+    color: rgb(78, 27, 126);
+    font-size: large;
+    /* background-color: black; */
+    padding: 0;
+    display: flex;
+
+}
+
+h2{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+}
+
+p{
+    text-align: center;
+    font-size:  1.0rem ;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.beginend{
+display:inline-block;
+top: 50%;
+left: 64%;
+transform: translate(-50% -50%);
+font-size: 1.5rem;
+border: 3px solid rgb(72, 71, 71);
+position: relative;
+background-color: rgb(108, 159, 176);
+padding: 15px 30px;
+font-size: 25px;
+font-weight: 500;
+border-radius: 5px;
+cursor: pointer;
+color:bisque;
+}
+
+.btn:focus, .btn:active, .btn:visited {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #343a40;
+}
+
+
+
+/* .button-center {
+    margin: 0;
+    position: relative;
+    left: 45%;
+  } */
+
+  form
+	{
+	
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-top: 18rem;
+    font-size: 2.5rem;
+    
+    
+	}
+
+    .quiz{
+        font-size: 2.5rem;
+        margin: .1rem;
+       background-color:aqua;
+      padding-left: 1rem;
+       box-sizing:border-box;
+       width: 25rem;
+       text-align: left;
+    }
+
+    .quiz:hover{
+    cursor: pointer;
+    background-color:blueviolet;
+    
+    }
+
+    /* .container {
+        box-sizing:border-box;
+        width: 5rem;
+    } */
+
+    .introContainerBox{
+        display: inline-block;
+        justify-content: center;
+        width: 540px; 
+        background-color: rgb(108, 159, 176);
+        border-radius: 5px;
+        margin-right: 50%;
+        margin-left: 35%;
+        border: 3px solid black;
+         margin-top: 5rem;
+        color:bisque;
+        
+    }
+    
+    #finalScore {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+
+    .hide {
+    display:none;
+    }
+
+    .scoreTime {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-highScore {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
